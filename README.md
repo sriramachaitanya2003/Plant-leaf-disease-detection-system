@@ -84,11 +84,35 @@ Docker (Scalable Deployment)
 **📂 Project Structure**
 plant-disease-detection/
 │
-├── dataset/ 
-├── model/
-│   └── trained_plant_disease_model.h5
-├── app.py
-├── train_model.py
-├── prediction.py
-├── requirements.txt
-└── README.md
+├── dataset
+│  ├── train (training images)
+│  ├── validation (validation images)
+│  └── test (testing images)
+
+│
+├── model
+│  └── trained_plant_disease_model.h5 (saved CNN model)
+
+│
+├── src
+│  ├── train_model.py (model training script)
+│  ├── predict.py (prediction logic)
+│  ├── preprocessing.py (image preprocessing & augmentation)
+│  └── utils.py (helper functions)
+
+│
+├── app
+│  └── app.py (Streamlit web application)
+
+│
+├── notebooks
+│  └── experimentation.ipynb (model experiments and testing)
+
+│
+├── static
+│  └── sample_images (example plant leaf images)
+
+│
+├── requirements.txt (project dependencies)
+├── README.md (project documentation)
+├── .gitignore
