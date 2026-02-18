@@ -84,7 +84,7 @@ Docker (Scalable Deployment)
 **📂 Project Structure**
 plant-disease-detection/
 │
-├── dataset/
+├── dataset/ 
 ├── model/
 │   └── trained_plant_disease_model.h5
 ├── app.py
