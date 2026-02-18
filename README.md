@@ -1,10 +1,10 @@
-**🌿 Plant Leaf Disease Detection System
-**
+**🌿 Plant Leaf Disease Detection System**
+
 An AI-powered Plant Leaf Disease Detection System built using Deep Learning (CNN) that identifies plant diseases from leaf images in real time.
 The system helps farmers, researchers, and agricultural professionals detect diseases early and take preventive action to reduce crop loss.
 
-**📌 Project Overview
-**
+**📌 Project Overview**
+
 Plant diseases significantly impact agricultural productivity and food security. Traditional disease diagnosis requires expert knowledge and manual inspection, which is time-consuming and not always accessible.
 This project leverages Convolutional Neural Networks (CNN) to automatically classify plant leaf diseases through image recognition and provides predictions through an interactive web application.
 
@@ -15,8 +15,8 @@ Detect diseases instantly
 View prediction results with high accuracy
 Enable early crop disease management
 
-**🚀 Features
-**
+**🚀 Features**
+
 ✅ Real-time plant disease prediction
 ✅ Deep Learning–based image classification
 ✅ Supports 38 plant disease classes
@@ -25,8 +25,8 @@ Enable early crop disease management
 ✅ Data augmentation for robust predictions
 ✅ Cloud-deployable architecture
 
-**🧠 Model Details
-**
+**🧠 Model Details**
+
 Architecture: Convolutional Neural Network (CNN)
 Frameworks: TensorFlow & Keras
 Input Image Size: 128 × 128 RGB
